@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    padding: 50px;
+}
+
+main{
+    background-color: aliceblue;
+    text-align: center;
+    margin: 10px 50px;
+    padding: 20px;
+}
+#valor{
+    padding: 10px 0;
+    font-size: 2em;
+}
+#times{
+    padding: 10px 0;
+}
+#times small{
+    display: block;
+}
+button{
+    padding: 2px 7px;
+}

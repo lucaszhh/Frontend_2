@@ -1,0 +1,176 @@
+:root{
+    --main-color: rgb(7, 7, 53);
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   General                                  */
+/* -------------------------------------------------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                                   Header                                   */
+/* -------------------------------------------------------------------------- */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-color);
+    color: white;
+    padding: 1rem;
+}
+
+.user-header, .logo-header{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-header{
+    flex-grow: 1;
+}
+
+.main-header > *{
+    width: 100%;
+    text-align: center;
+    padding: .3rem;
+}
+
+.header-img{
+    width: 90%;
+}
+.user-img{
+    width: 5rem;
+    border-radius: 100px;
+    margin-top: 1rem;
+}
+.cart-icon{
+    font-size: 1.5rem;
+}
+
+.main-header ul{
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main-header div{
+    position: relative;
+}
+.main-header label{
+    position: absolute;
+    left: .75rem;
+    top: .75rem;
+    color: black;
+}
+.main-header input{
+    width: 100%;
+    padding: .5rem 1.75rem;
+}
+/* -------------------------------------------------------------------------- */
+/*                                    Main                                    */
+/* -------------------------------------------------------------------------- */
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    color: var(--main-color);
+    padding: 1rem;
+}
+.banner{
+    height: 65vh;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/001/259/204/non_2x/live-breaking-news-banner-on-blue-world-map-vector.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+main section{
+    display: flex;
+    justify-content: space-between;
+    min-height: 15rem;
+    padding: .5rem;
+    margin: 2rem 0;
+    overflow: hidden;
+    position: relative;
+}
+main section h3{
+    width: 10rem;
+    flex-shrink: 0;
+}
+
+main section .news-container{
+    flex-grow: 1;
+    display: flex;
+}
+
+main section .more-icon{
+    padding: 3rem 1rem;
+    font-size: 1.5rem;
+    background-color: white;
+    position: absolute;
+    right: 5px;
+    top: calc(50% - 3.75rem);
+}
+.news-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: .5rem;
+    width: 20rem;
+    margin: 0 1rem;
+    background-color: rgb(219, 231, 241);
+}
+.news-card > *{
+    margin: .3rem;
+}
+
+.news-card p{
+    font-size: .75rem;
+}
+.news-card i{
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   Footer                                   */
+/* -------------------------------------------------------------------------- */
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    color: var(--main-color);
+    background-color: white;
+    border: 1rem solid var(--main-color);
+}
+.footer-img{
+    height: 100%;
+}
+footer p{
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+footer li{
+    padding: 1rem;
+    font-size: 1.5rem;
+}

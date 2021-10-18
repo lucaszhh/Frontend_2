@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css">
+        <title>Clase 13</title>
+</head>
+
+<body>
+        <form>
+                <h1>Inscripcion a Hogwarts</h1>
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" class="" name="nombre" id="nombre" autocomplete="off">
+                <small id="mensajeNombre" class="oculto">Solo letras, mínimo 3 caracteres y máximo 20.</small>
+
+                <label for="pass">Contraseña:</label>
+                <input type="password" name="pass" id="pass">
+
+                <label for="tel">Telefono:</label>
+                <input type="text" name="tel" id="tel">
+                <small id="mensajeTelefono" class="oculto">Solo números.</small>
+
+                <fieldset id="marcoHobbies">
+                        <legend>Hobbies: (No mas de 4)</legend>
+                        <label for="hobbiesNetflix">Netflix</label>
+                        <input type="checkbox" name="hobbies" id="hobbiesNetflix">
+
+                        <label for="hobbiesFutbol">Futbol</label>
+                        <input type="checkbox" name="hobbies" id="hobbiesFutbol">
+
+                        <label for="hobbiesTenis">Tenis</label>
+                        <input type="checkbox" name="hobbies" id="hobbiesTenis">
+
+                        <label for="hobbiesGym">Gym</label>
+                        <input type="checkbox" name="hobbies" id="hobbiesGym">
+
+                        <label for="hobbiesVideoJuegos">VideoJuegos</label>
+                        <input type="checkbox" name="hobbies" id="hobbiesVideoJuegos">
+
+                        <label for="hobbiesCocina">Cocina</label>
+                        <input type="checkbox" name="hobbies" id="hobbiesCocina">
+
+                        <label for="hobbiesProgramacion">Programación</label>
+                        <input type="checkbox" name="hobbies" id="hobbiesProgramación">
+
+                        <label for="hobbiesDibujo">Dibujo</label>
+                        <input type="checkbox" name="hobbies" id="hobbiesDibujo">
+
+                        <label for="hobbiesPintura">Pintura</label>
+                        <input type="checkbox" name="hobbies" id="hobbiesPintura">
+
+                        <label for="hobbiesGuitarra">Guitarra</label>
+                        <input type="checkbox" name="hobbies" id="hobbiesGuitarra">
+
+                        <label for="hobbiesTeclado">Teclado</label>
+                        <input type="checkbox" name="hobbies" id="hobbiesTeclado">
+
+                        <label for="hobbiesTeJER">Tejer</label>
+                        <input type="checkbox" name="hobbies" id="hobbiesTejer">
+
+                        <label for="hobbiesLectura">Lectura</label>
+                        <input type="checkbox" name="hobbies" id="hobbiesLectura">
+
+                        <label for="hobbiesEscritura">Escritura</label>
+                        <input type="checkbox" name="hobbies" id="hobbiesEscritura">
+
+                </fieldset>
+
+                <fieldset>
+                        <legend>Pais de nacimiento</legend>
+                        <label for="nacionalidadArgentina">Argentina </label>
+
+                        <input type="radio" name="nacionalidad" id="nacionalidadArgentina">
+                        <label for="nacionalidadColombiana">Colombia </label>
+
+                        <input type="radio" name="nacionalidad" id="nacionalidadColombiana">
+                        <label for="nacionalidadBrazilera">Brazil </label>
+
+                        <input type="radio" name="nacionalidad" id="nacionalidadBrazilera">
+                        <label for="nacionalidadChilena">Chile </label>
+
+                        <input type="radio" name="nacionalidad" id="nacionalidadChilena">
+                        <label for="nacionalidadVenezolana">Venezuela </label>
+
+                        <input type="radio" name="nacionalidad" id="nacionalidadVenezolana">
+                        <label for="nacionalidadPerú">Perú </label>
+
+                        <input type="radio" name="nacionalidad" id="nacionalidadPerú">
+                        <label for="nacionalidadUruguay">Uruguay </label>
+
+                        <input type="radio" name="nacionalidad" id="nacionalidadUruguay">
+                        <label for="nacionalidadParaguay">Paraguay </label>
+
+                        <input type="radio" name="nacionalidad" id="nacionalidadParaguay">
+                </fieldset>
+
+                <button type="submit" disabled>Inscribirme</button>
+        </form>
+
+
+        <script src="./app.js"></script>
+</body>
+
+</html>
