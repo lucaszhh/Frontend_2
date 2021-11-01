@@ -11,8 +11,8 @@
   <link rel="stylesheet" href="styles/ingreso.css">
 
   <!-- ---------------------- logica aplicada en register -------------------- -->
-  <script src="/scripts/utils.js"></script>
-  <script src="/scripts/signup.js"></script>
+
+  <script src="/scripts/signup.js" defer></script>
 
 </head>
 
@@ -29,26 +29,26 @@
 
       <label>
         Nombre:
-        <input type="text">
+        <input type="text" class="nombre">
       </label>
       <label>
         Apellido:
-        <input type="text">
+        <input type="text" class="apellido">
       </label>
       <label>
         Email:
-        <input type="text">
+        <input type="text" class="email">
       </label>
       <label>
         Contraseña:
-        <input type="password">
+        <input type="password" class="contraseña">
       </label>
       <label>
         Repetir contraseña:
-        <input type="password">
+        <input type="password" class="repetirContraseña">
       </label>
 
-      <button>Crear Cuenta</button>
+      <button type="submit" class="btnCrearCuenta">Crear Cuenta</button>
 
     </form>
     <div class="ingresarA">
